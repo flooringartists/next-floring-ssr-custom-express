@@ -18,9 +18,7 @@ export default function MyApp({ Component, pageProps }: AppProps, props: any) {
 
   return (
     <main className="overflow-hidden">
-
       <Component {...pageProps} />
-
       <Footer />
       <div onClick={(top)} className="fixed bottom-4 right-4 lg:block hidden">
         <div className="p-3 relative inline-flex group items-center justify-center cursor-pointer bg-[#C1202F] overflow-hidden">
