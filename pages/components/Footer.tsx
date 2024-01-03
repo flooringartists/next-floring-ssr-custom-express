@@ -33,18 +33,18 @@ export default function Footer() {
       url: "",
 
     },
-    {
-      num: "3",
-      icon: <FaTiktok size={24} />,
-      url: "",
+    // {
+    //   num: "3",
+    //   icon: <FaTiktok size={24} />,
+    //   url: "",
 
-    },
-    {
-      num: "3",
-      icon: <RiDiscordFill size={24} />,
-      url: "",
+    // },
+    // {
+    //   num: "3",
+    //   icon: <RiDiscordFill size={24} />,
+    //   url: "",
 
-    },
+    // },
 
   ];
   const About = [
@@ -313,7 +313,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm lg:pr-4 xl:w-5/6">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, sunt! Odit fugit maxime vero. Optio consequuntur temporibus, modi ipsam sit perferendis quidem provident dolore incidunt animi! Culpa dolor nostrum tempore?</p>
+              Transform your space with Flooring Artists – where craftsmanship meets excellence. Elevate your interiors with our top-tier flooring solutions. Your satisfaction is our commitment to quality and style</p>
             <div className="flex  space-x-4 md:justify-start">
               {Contact.map((elem) => {
                 const { icon, url, num } = elem;

@@ -3,7 +3,10 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { useRouter } from 'next/router';
 import { HiMenuAlt3 } from 'react-icons/hi';
+import { FiPhoneCall } from "react-icons/fi";
+
 import $ from 'jquery';
+import { uploadcareLoader } from "@uploadcare/nextjs-loader";
 const Header = () => {
 
   const [showMe, setShowMe] = useState(true);
@@ -30,7 +33,8 @@ const Header = () => {
       <header className="flex justify-between items-center  py-4 xl:w-9/12 lg:w-11/12 lg:px-0  md:px-8 px-4 mx-auto relative">
         <Link href="/" passHref={true}>
           <div className="flex items-center space-x-4 " >
-            <Image width={160} height={160} className=" object-cover object-center cursor-pointer duration-700 " src="/img/logo.png" priority alt="logo png " />
+            <Image width={160} height={160} className=" object-cover object-center cursor-pointer duration-700  "  loader={uploadcareLoader}
+                  unoptimized={true} src="/img/logo.png" priority alt="logo png " />
           </div>
         </Link>
         <div onClick={toggle} className="bg-[#c6c7be] p-2 rounded-md lg:hidden flex space-x-4 text-[#000]" id="show">
@@ -45,9 +49,9 @@ const Header = () => {
             <a onClick={() => { setactive(active === 4 ? 0 : 4); toggle }} href="/#project" className={`  transition-all duration-300 ${active === 4 ? ' text-[#000000]' : 'text-[#000000]'}`} >Project</a>
             <a onClick={() => { setactive(active === 5 ? 0 : 5); toggle }} href="/#testimonials" className={`  transition-all duration-300 ${active === 5 ? ' text-[#000000]' : 'text-[#000000]'}`} >Testimonials</a>
             <a onClick={() => { setactive(active === 6 ? 0 : 6); toggle }} href="/#portfolio" className={`  transition-all duration-300 ${active === 6 ? ' text-[#000000]' : 'text-[#000000]'}`} >Portfolio</a>
-            <a href="/" target="_blank" className="px-6 py-2 bg-[#C1202F] text-lg font-medium rounded text-white cursor-pointer">
-              Book Now
-            </a>
+              <a href="tel:9876543210"  className="px-6 flex items-center font-mono py-2 bg-[#C1202F] text-lg font-medium rounded text-white cursor-pointer">
+              <span className="pr-1"> <FiPhoneCall /></span>9876543210
+              </a>
           </div>
         </div>
       </header>

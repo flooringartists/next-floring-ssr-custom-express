@@ -14,13 +14,11 @@ export default function CompanyLink() {
             <div className="flex items-center gap-4">
               <img alt="Man" src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" className="h-14 w-14 rounded-full object-cover" />
               <div>
-                <p className="text-lg font-medium text-gray-900">Paul Starr</p>
+                <p className="text-lg font-medium text-gray-900">Mikel</p>
               </div>
             </div>
             <p className=" text-gray-700">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-              consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-              error officiis atque voluptates magnam!
+            Flooring Artists exceeded our expectations! Impeccable craftsmanship and attention to detail. Our floors are not just surfaces; they're a testament to quality and style.
             </p>
             <div className="flex justify-start gap-0.5 text-[#B9961D]">
               <svg
@@ -79,13 +77,12 @@ export default function CompanyLink() {
             <div className="flex items-center gap-4">
               <img alt="Man" src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" className="h-14 w-14 rounded-full object-cover" />
               <div>
-                <p className="text-lg font-medium text-gray-900">Paul Starr</p>
+                <p className="text-lg font-medium text-gray-900">Rishabh
+</p>
               </div>
             </div>
             <p className=" text-gray-700">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-              consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-              error officiis atque voluptates magnam!
+            Exceptional service! From consultation to completion, Flooring Artists demonstrated professionalism and expertise. Our new floors are a true reflection of their commitment to excellence.
             </p>
             <div className="flex justify-start gap-0.5 text-[#B9961D]">
               <svg
@@ -144,13 +141,11 @@ export default function CompanyLink() {
             <div className="flex items-center gap-4">
               <img alt="Man" src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" className="h-14 w-14 rounded-full object-cover" />
               <div>
-                <p className="text-lg font-medium text-gray-900">Paul Starr</p>
+                <p className="text-lg font-medium text-gray-900">Priyanka</p>
               </div>
             </div>
             <p className=" text-gray-700">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-              consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-              error officiis atque voluptates magnam!
+            Highly recommend Flooring Artists! Outstanding workmanship, timely delivery, and a team dedicated to customer satisfaction. Our experience speaks volumes about their quality and commitment.
             </p>
             <div className="flex justify-start gap-0.5 text-[#B9961D]">
               <svg
