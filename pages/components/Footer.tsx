@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
+import { FiFacebook, FiInstagram, FiPhoneCall, FiTwitter } from "react-icons/fi";
 import { BsTwitter } from "react-icons/bs";
-import { FaBitcoin, FaFacebookF, FaMedium, FaQuora, FaReddit, FaTelegram, FaTelegramPlane, FaTiktok, FaYoutube } from "react-icons/fa";
+import { MdOutlineWhatsapp } from "react-icons/md";
 import { RiDiscordFill } from "react-icons/ri";
+import { CiLocationOn, CiMail } from "react-icons/ci";
 import { uploadcareLoader } from "@uploadcare/nextjs-loader";
 export default function Footer() {
 
@@ -12,39 +13,21 @@ export default function Footer() {
     {
       num: "1",
       icon: <FiFacebook size={24} />,
-      url: "",
+      url: "https://www.facebook.com/people/Flooring-Artists/61555060778630/?mibextid=ZbWKwL",
 
     },
     {
       num: "2",
       icon: <AiOutlineInstagram size={24} />,
-      url: "",
+      url: "https://www.instagram.com/flooring_artists/?utm_source=qr&igsh=MXFvaG5kNnNibjVlNw%3D%3D",
 
     },
     {
       num: "3",
-      icon: <FiTwitter size={24} />,
-      url: "",
+      icon: <MdOutlineWhatsapp size={24} />,
+      url: "https://api.whatsapp.com/message/V46EAMP26CCLG1?autoload=1&app_absent=0",
 
     },
-    {
-      num: "3",
-      icon: <FaTelegram size={24} />,
-      url: "",
-
-    },
-    // {
-    //   num: "3",
-    //   icon: <FaTiktok size={24} />,
-    //   url: "",
-
-    // },
-    // {
-    //   num: "3",
-    //   icon: <RiDiscordFill size={24} />,
-    //   url: "",
-
-    // },
 
   ];
   const About = [
@@ -128,21 +111,21 @@ export default function Footer() {
   const ContactDetails = [
     {
       num: "1",
-      icon: "",
-      detail: "12354154156411",
+      icon: <FiPhoneCall size={20}/>,
+      detail: "+919376777446",
+      url: "tel:919376777446",
+
+    },
+    {
+      num: "2",
+      icon: <CiMail size={20}/>,
+      detail: "flooringartists@email.com",
       url: "",
 
     },
     {
       num: "2",
-      icon: "",
-      detail: "example@email.com",
-      url: "",
-
-    },
-    {
-      num: "2",
-      icon: "",
+      icon: <CiLocationOn size={20}/>,
       detail: "2464 Royal Ln. Mesa, New Jersey 45463",
       url: "",
 

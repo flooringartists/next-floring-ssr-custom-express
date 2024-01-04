@@ -49,8 +49,12 @@ const Header = () => {
             <a onClick={() => { setactive(active === 4 ? 0 : 4); toggle }} href="/#project" className={`  transition-all duration-300 ${active === 4 ? ' text-[#000000]' : 'text-[#000000]'}`} >Project</a>
             <a onClick={() => { setactive(active === 5 ? 0 : 5); toggle }} href="/#testimonials" className={`  transition-all duration-300 ${active === 5 ? ' text-[#000000]' : 'text-[#000000]'}`} >Testimonials</a>
             <a onClick={() => { setactive(active === 6 ? 0 : 6); toggle }} href="/#portfolio" className={`  transition-all duration-300 ${active === 6 ? ' text-[#000000]' : 'text-[#000000]'}`} >Portfolio</a>
-              <a href="tel:9876543210"  className="px-6 flex items-center font-mono py-2 bg-[#C1202F] text-lg font-medium rounded text-white cursor-pointer">
-              <span className="pr-1"> <FiPhoneCall /></span>9876543210
+              <a href="tel:919376777446"  className="px-6 flex items-center font-mono py-2 bg-[#C1202F] text-lg font-medium rounded text-white cursor-pointer">
+              <span className="pr-1"> <FiPhoneCall /></span>+919376777446
+
+
+
+
               </a>
           </div>
         </div>

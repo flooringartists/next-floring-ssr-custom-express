@@ -62,9 +62,9 @@ export default function Home(props: any) {
             <h2 className="text-4xl font-bold mb-2 text-[#C1202F]">Flooring Artists</h2>
             <h3 className="text-2xl mb-8 text-[#000]">Choose The Right Flooring
               Option for Your Home</h3>
-            <a href="tel:9876543210"  className=" justify-center  flex items-center font-mono ">
+            <a href="tel:919376777446"  className=" justify-center  flex items-center font-mono ">
             <button className="bg-[#C1202F] inline-flex items-center space-x-2 font-bold rounded py-3 px-8 shadow-lg uppercase tracking-wider hover:border-transparent text-[#fff] transition-all">
-            <span className="pr-1"> <FiPhoneCall /></span>9876543210
+            <span className="pr-1"> <FiPhoneCall /></span>+919376777446
               </button>
             </a>
 
@@ -84,9 +84,9 @@ export default function Home(props: any) {
               <p className="text-gray-600 mb-8">Welcome to Flooring Artists, your premier destination for exceptional flooring and paving services! At Flooring Artists, we are committed to elevating spaces through our top-notch craftsmanship. Our skilled artisans and craftsmen take pride in delivering excellence in every project, ensuring that your floors transcend mere surfaces to become statements of style and durability. With a dedication to quality and precision, we transform your vision into reality. Whether you seek timeless elegance, modern appeal, or a touch of luxury, Flooring Artists is your trusted partner in creating spaces that leave a lasting impression. Experience the difference with our unparalleled services, where every detail matters, and every floor becomes a masterpiece. Welcome to a world of craftsmanship, style, and enduring quality at Flooring Artists!</p>
               <div>
                 {/* <button className="bg-[#C1202F] font-bold rounded py-4 px-8 shadow-lg uppercase tracking-wider hover:border-transparent text-[#fff] transition-all">Ask For a Question</button> */}
-            <a href="tel:9876543210"  className="flex items-center font-mono ">
+            <a href="tel:919376777446"  className="flex items-center font-mono ">
             <button className="bg-[#C1202F] inline-flex items-center space-x-2 font-bold rounded py-3 px-8 shadow-lg uppercase tracking-wider hover:border-transparent text-[#fff] transition-all">
-            <span className="pr-1"> <FiPhoneCall /></span>9876543210
+            <span className="pr-1"> <FiPhoneCall /></span>+919376777446
               </button>
             </a>
               </div>
