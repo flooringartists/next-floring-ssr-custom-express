@@ -12,7 +12,7 @@ export default function Tech() {
   const [tech, setTech] = useState(0);
 
 
-  const GraniteTiles = [
+  const marbel = [
     {
       number: '1',
       img: '/img/floor1.png',
@@ -26,8 +26,26 @@ export default function Tech() {
       img: '/img/floor3.png',
     },
     {
-      number: '3',
+      number: '4',
       img: '/img/floor4.png',
+    },
+  ]
+  const GraniteTiles = [
+    {
+      num: '1',
+      img: '/img/floor9.png',
+    },
+    {
+      num: '2',
+      img: '/img/floor10.png',
+    },
+    {
+      num: '3',
+      img: '/img/floor11.png',
+    },
+    {
+      num: '4',
+      img: '/img/floor12.png',
     },
   ]
 
@@ -78,7 +96,7 @@ export default function Tech() {
             <div className="grid  lg:grid-cols-4 md:grid-cols-3 grid-cols-2 divide-x-1 md:gap-10 gap-6 relative py-0">
             <>
               {
-               GraniteTiles.map((elem) => {
+               marbel.map((elem) => {
                   const { img } = elem;
                   return (
                     <div data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="1000" className=" group inline-block py-4  overflow-hidden transition text-white duration-500" >

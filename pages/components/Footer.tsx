@@ -126,8 +126,8 @@ export default function Footer() {
     {
       num: "2",
       icon: <CiLocationOn size={20}/>,
-      detail: "2464 Royal Ln. Mesa, New Jersey 45463",
-      url: "",
+      detail: "Bye pass marble Mandi road Near telephone  exchange Office Makrana th. makrana Rajasthan  341505.",
+      url: "https://www.google.com/maps/dir/Bye+pass+marble+Mandi+road+Near+telephone++exchange+Office+Makrana+th.+makrana+Rajasthan++341505./Makrana,+Rajasthan/@27.0286285,74.6733356,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x396b9dabf80381a5:0x54ae574801fd7669!2m2!1d74.714621!2d27.0285581?entry=ttu",
 
     }
   ];
@@ -283,15 +283,15 @@ export default function Footer() {
         <footer className="grid w-11/12 grid-cols-1 gap-4 py-10  lg:grid-cols-6 md:grid-cols-3 md::gap-10 mx-auto 2xl:w-9/12 xl:w-5/6 lg:w-11/12 border-b border-white/10">
           <div className="col-span-1 space-y-8 md:col-span-2">
             <Link href="/" passHref={true}>
-              <div className="">
+              <div className="w-full">
                 <Image
-                  src="/img/logo.png"
+                  src="/img/logo.webp"
                   className=""
                   alt="home.png"
                   loader={uploadcareLoader}
                   unoptimized={true}
-                  width={200}
-                  height={200}
+                  width={240}
+                  height={68}
                 />
               </div>
             </Link>
@@ -373,7 +373,7 @@ export default function Footer() {
                 return (
                   <div key={num} className="flex space-x-2 itmes-center">
                     <span> {icon}</span>
-                    <a href={url} > {detail}</a>
+                    <a href={url} target="_blank"> {detail}</a>
                   </div>
                 );
               })}

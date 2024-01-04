@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useRouter } from 'next/router';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { FiPhoneCall } from "react-icons/fi";
-
 import $ from 'jquery';
 import { uploadcareLoader } from "@uploadcare/nextjs-loader";
 const Header = () => {
@@ -30,11 +29,11 @@ const Header = () => {
   return (
 
     <nav className="bg-[#D9D9D9]  z-20 header w-full">
-      <header className="flex justify-between items-center  py-4 xl:w-9/12 lg:w-11/12 lg:px-0  md:px-8 px-4 mx-auto relative">
+      <header className="flex justify-between items-center  py-2 xl:w-9/12 lg:w-11/12 lg:px-0  md:px-8 px-4 mx-auto relative">
         <Link href="/" passHref={true}>
           <div className="flex items-center space-x-4 " >
-            <Image width={160} height={160} className=" object-cover object-center cursor-pointer duration-700  "  loader={uploadcareLoader}
-                  unoptimized={true} src="/img/logo.png" priority alt="logo png " />
+            <Image width={160} height={160} className=" w-full"  loader={uploadcareLoader}
+                  unoptimized={true} src="/img/logo.webp" priority alt="logo png " />
           </div>
         </Link>
         <div onClick={toggle} className="bg-[#c6c7be] p-2 rounded-md lg:hidden flex space-x-4 text-[#000]" id="show">
