@@ -261,16 +261,6 @@ export default function Tech() {
           >
             Home
           </span>
-          {/* <span
-            onClick={() => setTech(tech === 2 ? 0 : 2)}
-            className={
-              tech === 2
-                ? "text-[#C1202F] underline border-[#C1202F]  px-7 py-2.5 text-lg font-medium capitalize cursor-pointer"
-                : "border-[#C1202F] duration-300 trasition text-[#38383A] px-7 py-2.5 text-lg font-medium capitalize cursor-pointer"
-            }
-          >
-            School
-          </span> */}
           <span
             onClick={() => setTech(tech === 3 ? 0 : 3)}
             className={
@@ -312,8 +302,8 @@ export default function Tech() {
                   return (
                     <div data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="1000" className=" group inline-block py-4  overflow-hidden transition text-white duration-500" >
                       <div className="w-full relative">
-                        <Image  loader={uploadcareLoader}
-                  unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
+                        <Image loader={uploadcareLoader}
+                          unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
                       </div>
                     </div>
                   )
@@ -329,10 +319,10 @@ export default function Tech() {
                   const { img } = elem;
                   return (
 
-                    <div data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden shadow hover:shadow-md  transition text-white duration-500 " >
+                    <div data-aos="zoom-in-right" data-aos-delay="100" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden transition text-white duration-500 " >
                       <div className="w-full relative">
-                        <Image  loader={uploadcareLoader}
-                  unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
+                        <Image loader={uploadcareLoader}
+                          unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
                       </div>
                     </div>
                   )
@@ -341,25 +331,6 @@ export default function Tech() {
             </>
           ) : null}
 
-          {/* {tech === 2 ? (
-            <>
-              {
-                Process2.map((elem) => {
-                  const { img } = elem;
-                  return (
-
-                    <div data-aos="zoom-in-left" data-aos-delay="50" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden shadow hover:shadow-md  transition text-white duration-500 " >
-                      <div className="w-full relative">
-                        <Image  loader={uploadcareLoader}
-                  unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
-                      </div>
-                    </div>
-                  )
-                })
-              }
-            </>
-          ) : null} */}
-
           {tech === 3 ? (
             <>
               {
@@ -367,10 +338,10 @@ export default function Tech() {
                   const { img } = elem;
                   return (
 
-                    <div data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden shadow hover:shadow-md  transition text-white duration-500 " >
+                    <div data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden transition text-white duration-500 " >
                       <div className="w-full relative">
-                        <Image  loader={uploadcareLoader}
-                  unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
+                        <Image loader={uploadcareLoader}
+                          unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
                       </div>
                     </div>
                   )
@@ -385,10 +356,10 @@ export default function Tech() {
                   const { img } = elem;
                   return (
 
-                    <div data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden shadow hover:shadow-md  transition text-white duration-500 " >
+                    <div data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden transition text-white duration-500 " >
                       <div className="w-full relative">
-                        <Image  loader={uploadcareLoader}
-                  unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
+                        <Image loader={uploadcareLoader}
+                          unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
                       </div>
                     </div>
                   )
@@ -403,10 +374,10 @@ export default function Tech() {
                   const { img } = elem;
                   return (
 
-                    <div data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden shadow hover:shadow-md  transition text-white duration-500 " >
+                    <div data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="1000" className=" group inline-block pb-4  overflow-hidden transition text-white duration-500 " >
                       <div className="w-full relative">
-                        <Image  loader={uploadcareLoader}
-                  unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
+                        <Image loader={uploadcareLoader}
+                          unoptimized={true} src={img} alt={img} width={500} height={500} className="group-hover:scale-105 transition-all duration-200 transform border-b border-[#C1202F]" />
                       </div>
                     </div>
                   )
@@ -415,19 +386,15 @@ export default function Tech() {
             </>
           ) : null}
 
-
-          
-
-
         </div>
         <div className="flex justify-center">
           <a href="/portfolio-details">
-          <button className="bg-[#C1202F] flex justify-center text-center items-center space-x-2 font-bold rounded py-3 px-8 shadow-lg uppercase tracking-wider hover:border-transparent text-[#fff] transition-all">
-               VIEW MORE COLLECTION <span className="pl-1"><GiArmoredBoomerang /></span>
+            <button className="bg-[#C1202F] flex justify-center text-center items-center space-x-2 font-bold rounded py-3 px-8 shadow-lg uppercase tracking-wider hover:border-transparent text-[#fff] transition-all">
+              VIEW MORE COLLECTION <span className="pl-1"><GiArmoredBoomerang /></span>
             </button>
           </a>
-          
-          </div>
+
+        </div>
       </div>
     </>
   );

@@ -112,7 +112,7 @@ export default function Footer() {
     {
       num: "1",
       icon: <FiPhoneCall size={20}/>,
-      detail: "+919376777446",
+      detail: "+91-9376777446",
       url: "tel:919376777446",
 
     },

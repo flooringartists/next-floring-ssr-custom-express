@@ -5,10 +5,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   "env": {
-    "URL": "https://thegameofchains.com",
+    "URL": "https://www.flooringartists.in",
   },
   images: {
-    domains: ['https://thegameofchains.com/images1/'],
+    domains: ['https://www.flooringartists.in/images1/'],
   },
 
 })
